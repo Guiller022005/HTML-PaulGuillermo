@@ -1,0 +1,217 @@
+.resolucion{
+    width: 99%;
+    text-align: center;
+}
+/**movil**/
+@media (max-width: 767px){
+    .desktop{display: none;}
+    .tablet{display: none;}
+    .movil{display: none;}
+    
+}
+/**tablet**/
+@media (min-width: 768px) and (max-width: 990){
+    .desktop{display: none;}
+    .tablet{display: none;}
+    .movil{display: none;}
+}
+/**Escritorio**/
+@media (min-width: 991px){
+    .desktop{display: none;}
+    .tablet{display: none;}
+    .movil{display: none;}
+}
+body{
+    background-color: #E5E5E5;
+    font-family: 'Monserrat','Arial';
+}
+li{
+    line-height: 25px;
+    }
+/*contenido principal*/
+.contenedor-principal{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    width: 1200px;
+    margin: 40px auto;
+    text-align: justify;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    
+}
+/*-------------------*/
+/*Informacion general*/
+/*-------------------*/
+.informacion-general{
+    padding: 100px 88px;
+}
+
+/*descripcion*/
+
+.nombre{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.texto-descripcion{
+    width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.descripcion-profesion{
+    font-size: 14px;
+    font-weight: 700;
+}
+/*secciones principales*/
+.titulo-seccion-principal{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 45px;
+}
+.texto-naranja{
+    color: #FB6D3A;
+}
+
+/*seccion proyectos*/
+.lista-proyectos{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 17px;
+}
+.enlace-proyectos{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+.puntos-proyectos{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #595959;
+}
+
+/*seccion experiencia laboral*/
+.puesto-empresa{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+.periodo-experiencia{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;   
+}
+.lista-experiencia{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 17px;
+}
+/*seccion educacion*/
+.titulo-educacion{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 5px 0;
+}
+.educacion{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    width: 242px;
+    height: 114px;
+    left: 498px;
+    top: 1138px;
+    margin-bottom: 8px;
+}
+.management{
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+margin: 8px 0;
+}
+/*-------------------*/
+/*informacion lateral*/
+/*-------------------*/
+.informacion-lateral{
+    background: #1E2939;
+    padding: 40px 0;
+    position: absolute;
+    width: 300px;
+    height: 1319px;
+    left: 40px;
+    top: 40px;
+    margin-bottom: 80px;
+}
+.titulo-lateral{
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 50px;
+    margin-bottom: 8px;
+    padding-left: 40px;
+
+}
+.contacts, .habilidades-tecnicas, .habilidades-blandas, .address, .date {
+    margin-left: 40px;
+}
+/*seccion contactos*/
+.tipo-contacto{
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+    padding-left: 40px;
+
+}
+.contacto-info{
+    color: #002ec7;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 40px;
+
+}
+/*seccion de lista*/
+.lista-lateral{
+    padding-left: 40px;
+
+}
+.lista-lateral >li{
+    color:  #FB6D3A;
+ 
+}
+.elemento-lista-lateral{
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
