@@ -7,6 +7,13 @@ body {
     padding: 0;
 }
 
+@media (max-width: 768px) {
+    .informacion-lateral {
+      float: none;
+      width: 100%;
+    }
+  }
+
 .container {
     max-width: 800px;
     margin: 20px auto;
@@ -20,22 +27,31 @@ body {
 .contenedor-principal {
     display: flex;
     padding: 20px;
+    
+      
 }
 
 /* Información lateral */
 .informacion-lateral {
+  
     position: relative;
     background: linear-gradient(to right, #a8d5e2 90%, #ffffff 1%); /* Fondo Lateral */
-    padding: 20px;
+    padding: 0px;
+    padding-right: 80px;
+    padding-left: 20px;
     width: 350px;
     margin-right: 20px;
-    
 }
+
+.bloque-azul-superior-izquierdo {
+    display: none;
+  }
 
 /* Información general */
 .informacion-general {
     flex-grow: 1;
     padding: 20px;
+    
 }
 
 /* Estilos de texto */
