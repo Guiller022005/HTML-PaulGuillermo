@@ -45,6 +45,8 @@ html_Table = """
             <th>Longitude</th>
             <th>Tags</th>
             <th>Friends</th>
+            <th>Greeting</th>
+            <th>Favorite Fruit</th>
         </tr>
     </thead>
     <tbody>
@@ -68,6 +70,8 @@ for item in data:
     html_Table += "<td>{}</td>".format(', '.join(item['tags']))
     friends_with_id = ', '.join(["{} ({})".format(friend['name'], friend['id']) for friend in item['friends']])
     html_Table += "<td>{}</td>".format(friends_with_id)  # Mostrar nombres de amigos con ID
+    html_Table += "<td>{}</td>".format(item['greeting'])
+    html_Table += "<td>{}</td>".format(item['favoriteFruit'])
     html_Table += "</tr>"
 
 html_Table += """
