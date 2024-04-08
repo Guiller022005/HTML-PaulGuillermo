@@ -69,3 +69,10 @@ for item in data:
     friends_with_id = ', '.join(["{} ({})".format(friend['name'], friend['id']) for friend in item['friends']])
     html_Table += "<td>{}</td>".format(friends_with_id)  # Mostrar nombres de amigos con ID
     html_Table += "</tr>"
+
+html_Table += """
+    </tbody>
+<table>
+</body>
+</html>
+"""
