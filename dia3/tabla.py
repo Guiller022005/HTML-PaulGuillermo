@@ -35,6 +35,7 @@ html_Table = """
             <th>Index</th>
             <th>GUID</th>
             <th>Balance</th>
+            <th>Picture</th>
             <th>Name</th>
             <th>Email</th>
             <th>Phone</th>
@@ -59,6 +60,7 @@ for item in data:
     html_Table += "<td>{}</td>".format(item['index'])
     html_Table += "<td>{}</td>".format(item['guid'])
     html_Table += "<td>{}</td>".format(item['balance'])
+    html_Table += "<td><img class='picture' src='{}' alt='Picture'></td>".format(item['picture'])
     html_Table += "<td>{}</td>".format(item['name'])
     html_Table += "<td>{}</td>".format(item['email'])
     html_Table += "<td>{}</td>".format(item['phone'])
