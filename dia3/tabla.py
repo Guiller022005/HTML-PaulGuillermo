@@ -76,3 +76,6 @@ html_Table += """
 </body>
 </html>
 """
+
+with open('tabla.html','w') as f:
+    f.write(html_Table)
