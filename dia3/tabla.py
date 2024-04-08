@@ -50,3 +50,22 @@ html_Table = """
     <tbody>
 """
 
+
+for item in data:
+    html_Table += "<tr>"
+    html_Table += "<td>{}</td>".format(item['_id'])
+    html_Table += "<td>{}</td>".format(item['index'])
+    html_Table += "<td>{}</td>".format(item['guid'])
+    html_Table += "<td>{}</td>".format(item['balance'])
+    html_Table += "<td>{}</td>".format(item['name'])
+    html_Table += "<td>{}</td>".format(item['email'])
+    html_Table += "<td>{}</td>".format(item['phone'])
+    html_Table += "<td>{}</td>".format(item['address'])
+    html_Table += "<td>{}</td>".format(item['about'])
+    html_Table += "<td>{}</td>".format(item['registered'])
+    html_Table += "<td>{}</td>".format(item['latitude'])
+    html_Table += "<td>{}</td>".format(item['longitude'])
+    html_Table += "<td>{}</td>".format(', '.join(item['tags']))
+    friends_with_id = ', '.join(["{} ({})".format(friend['name'], friend['id']) for friend in item['friends']])
+    html_Table += "<td>{}</td>".format(friends_with_id)  # Mostrar nombres de amigos con ID
+    html_Table += "</tr>"
