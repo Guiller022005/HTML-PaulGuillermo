@@ -14,15 +14,15 @@ html_Table = """
 <style>
     table {
     width: 100%;
-    border.collapse: collapse;
+    border-collapse: collapse;
     }
     th, td{
-      border: 1px solid #dddddd;
+      border: 1px solid #ccffcc;
       padding: 8px;
       text-align: left;
     }
     th{
-      background-color: #f2f2f2;
+      background-color: #ccccff;
     }
 </style>
 </head>
