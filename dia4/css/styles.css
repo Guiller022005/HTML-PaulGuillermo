@@ -46,3 +46,35 @@
     grid-column:2/3 ;
     grid-row:3/5 ;
 }
+
+
+/* Aqui empieza la siguiente parte*/
+
+.grid2 {
+    border-radius: 10px;
+    display: grid;
+    margin: 4vi;
+    padding: 4vi;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    gap: 2vi;
+}
+
+.imagen3{
+    border-radius: 10px;
+    align-self: flex-end;
+    width: 28vi;
+    height: 23vi;
+}
+
+.imagen4{
+    border-radius: 10px;
+    width: 17vi;
+    height: 23vi;
+}
+
+.video4{
+    border-radius: 10px;
+    width: 34vi;
+    height: 23vi;
+}
